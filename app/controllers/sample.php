@@ -25,6 +25,7 @@
 
             /**
              * Demonstrates how to use a user model in conjunction with a view.
+             * Shows how to access stuff based on a post.
              */
             if($_SERVER["REQUEST_METHOD"] == "POST") {
                 // No need to check if the fields are empty as they have been validated before.
