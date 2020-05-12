@@ -2,12 +2,12 @@
 
     class Application {
         /**
-         * DO NOT MODIFY THIS FILE.
+         * DO NOT MODIFY THIS FILE. EXCEPT: DEFAULT CONTROLLER.
          * Do not take controller methods beyond 2 levels deep. It will break.
          */
     
         // This is the default controller and method.
-        protected $controller = 'homepage';
+        protected $controller = ''; //TODO: CHANGE THIS.
         protected $method = 'index';
         protected $parameters = [];
 

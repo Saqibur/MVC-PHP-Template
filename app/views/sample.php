@@ -1,13 +1,13 @@
 <?php
 // $user = $data;
-echo $data;
+
 ?>
 <html>
 
 <head>
 
     <title>Sample</title>
-    <?php echo $data; ?>
+    <?php print_r($data); ?>
 
 </head>
 
