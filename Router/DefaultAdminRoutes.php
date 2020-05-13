@@ -8,4 +8,3 @@ include_once('AdminRoutes');
 Route::create('Admin', function () {
     DefaultAdminController::Index();
 });
-
