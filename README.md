@@ -1,5 +1,10 @@
 # MVC-PHP-Template
 
+### Usage
+- Clone the project
+- Rename the folder
+- Start building the web app by extending the controllers, implementing the models and designing the views.
+
 ### TODO
 - Add admin functionality, with CRUD
 - Add builder scripts
