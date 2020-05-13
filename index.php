@@ -78,4 +78,5 @@ spl_autoload_register('load_classes');
 spl_autoload_register('load_controllers');
 
 
+require_once(ROUTER . 'AdminRoutes.php');
 require_once(ROUTER . 'Routes.php');
