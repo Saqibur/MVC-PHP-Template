@@ -80,3 +80,4 @@ spl_autoload_register('load_controllers');
 
 require_once(ROUTER . 'DefaultAdminRoutes.php');
 require_once(ROUTER . 'Routes.php');
+

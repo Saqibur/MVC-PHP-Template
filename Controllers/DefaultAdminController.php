@@ -6,6 +6,7 @@ class DefaultAdminController extends Controller {
     }
 
     public static function ShowAllRoutes() {
-        // self::View("DefaultAdmin" . DIRECTORY_SEPARATOR . "ShowAllRoutesView");
+        
+        self::View("DefaultAdmin" . DIRECTORY_SEPARATOR . "ShowAllRoutesView");
     }
 }

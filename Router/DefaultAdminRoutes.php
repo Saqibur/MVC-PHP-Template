@@ -8,6 +8,6 @@ Route::create('Admin', function () {
     DefaultAdminController::Index();
 });
 
-Route::create("ShowAllRoutes", function () {
+Route::create("Admin/ShowAllRoutes", function () {
     DefaultAdminController::ShowAllRoutes();
 });

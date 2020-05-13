@@ -16,7 +16,7 @@ print_r($data);
 </head>
 <body>
 
-<button class="btn btn-primary">Button</button>
+<a href="Admin/ShowAllRoutes" class="btn btn-primary">Show All Routes</a>
     
 </body>
 </html>
