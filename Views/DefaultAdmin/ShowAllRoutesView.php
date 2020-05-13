@@ -1,4 +1,5 @@
 <?php
+    print_r(Route::$routes);
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +13,6 @@
 
 <h1>These are all the entry points of your application:</h1>
 
-    
+        
 </body>
 </html>
