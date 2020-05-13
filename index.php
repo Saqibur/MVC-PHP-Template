@@ -6,8 +6,10 @@ define('CONTROLLERS', ROOT . 'Controllers' . DIRECTORY_SEPARATOR);
 define('VIEWS', ROOT . 'Views' . DIRECTORY_SEPARATOR);
 define('MODELS', ROOT . 'Models' . DIRECTORY_SEPARATOR);
 define('RESOURCES', ROOT . 'Resources' . DIRECTORY_SEPARATOR);
+define('ROUTER', ROOT . 'Router' . DIRECTORY_SEPARATOR);
 
-$modules = [ROOT, CLASSES, CONTROLLERS, VIEWS, MODELS, RESOURCES];
+
+$modules = [ROOT, CLASSES, CONTROLLERS, VIEWS, MODELS, RESOURCES, ROUTER];
 
 set_include_path(get_include_path() . PATH_SEPARATOR . implode(PATH_SEPARATOR, $modules));
 
@@ -76,4 +78,4 @@ spl_autoload_register('load_classes');
 spl_autoload_register('load_controllers');
 
 
-require_once('./Routes.php');
+require_once(ROUTER . 'Routes.php');
