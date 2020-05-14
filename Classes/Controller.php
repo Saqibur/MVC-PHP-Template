@@ -29,4 +29,10 @@ class Controller
 
         require_once VIEWS . $name . '.php';
     }
+
+    public static function Debug($name, $data = [])
+    {
+        // TODO: Somehow incorporate error debugging related features and functions.
+        require_once VIEWS . $name . '.php';
+    }
 }
