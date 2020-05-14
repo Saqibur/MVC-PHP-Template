@@ -63,3 +63,5 @@ Sample Project: [Gakkou-Online-Learning](https://github.com/Saqibur/Gakkou-Onlin
 - Clean command to get rid of all non-essentials.
 - Help
 - File watching / Auto-reload ???
+- Error 404 / Catch-all for invalid routes.
+- Basic/Example/Starter code with explanations.
