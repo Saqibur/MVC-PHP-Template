@@ -22,7 +22,8 @@ $time = $_SERVER['REQUEST_TIME'];
 /**
 * for a 30 minute timeout, specified in seconds
 */
-$timeout_duration = 1800;
+
+$timeout_duration = 1800; // Change this as you see fit.
 
 /**
 * Here we look for the user's LAST_ACTIVITY timestamp. If
@@ -78,6 +79,6 @@ spl_autoload_register('load_classes');
 spl_autoload_register('load_controllers');
 
 
-require_once(ROUTER . 'DefaultAdminRoutes.php');
-require_once(ROUTER . 'Routes.php');
 
+require_once(ROUTER . 'Routes.php');
+// require_once(ROUTER . 'DefaultAdminRoutes.php');
