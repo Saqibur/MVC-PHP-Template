@@ -10,6 +10,7 @@
 - Add builder scripts
 - DB Migrations (Not even sure if this is possible considering the tiny scope of the project.)
 - Debuggin module
+- Need to make docs
 
 
 ### Defining the Project Scope
@@ -19,7 +20,7 @@
 - Serve for testing [I need to raise exceptions from the CLI.]
 - Clean command to get rid of all non-essentials.
 - Help
-- File watching
+- File watching ??? no thx
 
 
 # What This Project Is
@@ -40,25 +41,6 @@
 - Pliable
 - No ORM or authentication
 - A solution to life's problems. PHP is horrible to code in so it's best to just keep away.
-
-
-# An Improper Introduction to MVC
-When dabbling with PHP for a few minutes and wanting to start working on a small application while also trying to learn a proper coding architecture, MVC is the only way to go. Not only is MVC incredibly simple to understand, it is also the foundation of several *actual* web development frameworks.
-
-## What is MVC?
-MVC stands for Model-View-Controller. Rather than dealing with a soupy mess of PHP, javascript, and HTML where the business logic muddles around with the UI designs, MVC chaperones everyone into their own playing fields and ensures that everyone does their job correctly, from their own designated positions.
-
-So, in a normal MVC project, there are three key players:
-1. The Models - The Cooks
-2. The Controllers - The Waiters/Front-liners
-3. The Views - The Meal
-
-There's another important player, often ignored but is the most important in the team. The 
-4. The Router - The bouncer
-
-
-## Let's Start Making It
-The first thing we're going to dive into is the Routes of the application.
 
 # Project Directory
 ```
