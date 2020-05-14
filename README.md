@@ -36,6 +36,7 @@
 - .git
 - README.md
 4. Start building the web app by extending the controllers, implementing the models and designing the views.
+5. You can configure the name of your DataBase and all related behavior from DataAccess.php.
 
 Sample Project: [Gakkou-Online-Learning](https://github.com/Saqibur/Gakkou-Online-Learning)
 
@@ -46,7 +47,9 @@ Sample Project: [Gakkou-Online-Learning](https://github.com/Saqibur/Gakkou-Onlin
 - Easy modularization.
 - Bootstrapping.
 - Basic session management.
+- Configurable DataAccess, designed to work with SQLite3, but can be extended to MySql, PostGreSQL, etc. Lookup how to configure each DB provider online.
 - No dependencies - everything *should* work right away.
+- Remember to enable sqlite3 in your php.ino file if you do use SQLite3.
 
 
 
