@@ -1,10 +1,11 @@
 # Simple-MVC-PHP-Template
 
 ## What This Project Is
-- A light-weight template for building basic MVC web applications.
+- A light-weight template for building basic MVC web applications. A skeleton I use often.
 - Can be used to make classroom projects/prototypes.
-- Solidy MVC concepts without hand-holding all the way through.
+- Helps solidify MVC concepts without hand-holding all the way through.
 - Build and test CRUD apps quickly while maintaining an MVC structure.
+- Comes with pre-built error pages for easy debugging. **TODO**
 
 ## What This Project Is Not
 - A solid framework to build web applications. This is just a template and is not pretending to be a framework.
