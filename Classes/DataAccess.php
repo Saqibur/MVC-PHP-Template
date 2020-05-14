@@ -7,22 +7,28 @@ class DataAccess
      * Right now I only care about MySQL
      */
 
+    
+
     public static $connection;
     public static $servername = "localhost";
     public static $username = "username";
     public static $password = "password";
     public static $name = "";
 
+    /**
+     * Uncommmend stff below for SQLite3.
+     */
+    
+    const PATH_TO_SQLITE_FILE = "../default.db";
+    public function Connection()
+    {
+        /**
+         * If the database does not exist, it is created.
+         */
 
-    // public function DataAccess()
-    // {
-    //     try {
-    //         $conn = new PDO("mysql:host=$servername;dbname=myDB", $username, $password);
-    //         // set the PDO error mode to exception
-    //         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    //         echo "Connected successfully";
-    //     } catch (PDOException $e) {
-    //         echo "Connection failed: " . $e->getMessage();
-    //     }
-    // }
+        if (self::$connection == null) {
+            self::$connection = new PDO("sqlite:" . self::PATH_TO_SQLITE_FILE);
+        }
+        return self::$connection;
+    }
 }
