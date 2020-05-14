@@ -11,6 +11,17 @@
 - DB Migrations (Not even sure if this is possible considering the tiny scope of the project.)
 - Debuggin module
 
+
+### Defining the Project Scope
+- I need to implement a basic CLI, without any dependencies, this CLI should allow easy configuration.
+- Need a test/error delivery area. [Should implement a comamnd for this.]
+- Need to define the admin panel and stuff. [Should implement a command for this.]
+- Serve for testing [I need to raise exceptions from the CLI.]
+- Clean command to get rid of all non-essentials.
+- Help
+- File watching
+
+
 # What This Project Is
 - A simple template for building MVC web applications.
 - I use the term build loosely because outside of a classroom/learning environment everything about this project breaks down.
@@ -18,7 +29,6 @@
 - Build and test CRUD apps quickly while learning MVC.
 - Aimed at those who are just picking up PHP and want to work on a simple project.
 - A simple admin panel
-- DB migrations
 - Debugging
 - Easy deployment  (if dumb enough to do that.)
 
