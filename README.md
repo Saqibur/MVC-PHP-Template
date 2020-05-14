@@ -1,58 +1,58 @@
-# MVC-PHP-Template
+# Simple-MVC-PHP-Template
 
-### Usage
-- Clone the project
-- Rename the folder
-- Start building the web app by extending the controllers, implementing the models and designing the views.
+## What This Project Is
+- A light-weight template for building basic MVC web applications.
+- Can be used to make classroom projects/prototypes.
+- Solidy MVC concepts without hand-holding all the way through.
+- Build and test CRUD apps quickly while maintaining an MVC structure.
 
-### TODO
-- Add admin functionality, with CRUD
-- Add builder scripts
-- DB Migrations (Not even sure if this is possible considering the tiny scope of the project.)
-- Debuggin module
-- Need to make docs
-
-
-### Defining the Project Scope
-- I need to implement a basic CLI, without any dependencies, this CLI should allow easy configuration.
-- Need a test/error delivery area. [Should implement a comamnd for this.]
-- Need to define the admin panel and stuff. [Should implement a command for this.]
-- Serve for testing [I need to raise exceptions from the CLI.]
-- Clean command to get rid of all non-essentials.
-- Help
-- File watching ??? no thx
-
-
-# What This Project Is
-- A simple template for building MVC web applications.
-- I use the term build loosely because outside of a classroom/learning environment everything about this project breaks down.
-- By going through all the grunt work of building an MVC-app from the groundup, it's easy learn a lot about how better, bigger, and *actual* frameworks... well, work.
-- Build and test CRUD apps quickly while learning MVC.
-- Aimed at those who are just picking up PHP and want to work on a simple project.
-- A simple admin panel
-- Debugging
-- Easy deployment  (if dumb enough to do that.)
-
-# What This Project Is Not
-- A solid framework to build web applications.
-- A proper introduction to MVC, PHP or Web Development Frameworks.
+## What This Project Is Not
+- A solid framework to build web applications. This is just a template and is not pretending to be a framework.
+- A proper introduction to MVC, PHP or Web development frameworks like Laravel/Code Igniter.
 - Secure
 - Reliable
-- Pliable
-- No ORM or authentication
-- A solution to life's problems. PHP is horrible to code in so it's best to just keep away.
+- A solution to life's problems.
 
-# Project Directory
+## Project Directory
 ```
-└───MVC-Template
+└───MVC-Template            # Rename this folder to fit your needs.
     ├───Classes             # Holds core classes for the project.
     ├───Controllers         
     ├───Models              # Product views and urls
     ├───Resources           # Stuff all scripts, libraries, styles here.
-    │   ├───Images
-    │   ├───Scripts
+    │   ├───img
+    │   ├───scripts
     │   ├───css
     │   └───js
-    ├───Router
+    ├───Router              # Require in any php routes you create.
     └───Views
 ```
+
+### Usage
+1. Clone this repository into your xampp/htdocs
+2. Rename the folder to your own project
+3. Delete all the files you don't need, like
+- License
+- .git
+- README.md
+4. Start building the web app by extending the controllers, implementing the models and designing the views.
+
+### Features
+- Light-weight MVC skeleton.
+- Multi-level routing.
+- Easy modularization.
+- Bootstrapping.
+- Basic session management.
+- No dependencies - everything *should* work right away.
+
+
+
+### TODO
+- Debugging/Error Pages.
+- Basic CLI for basic functions.
+- Need a test/error delivery area.
+- Need to define the admin panel and stuff.
+- Serve for testing.
+- Clean command to get rid of all non-essentials.
+- Help
+- File watching / Auto-reload ???
